@@ -1,0 +1,157 @@
+@media(max-width:575px) and (min-width:0){
+    .banner_content h6{
+        color: red;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        margin-left: 0px;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        height: 2px;
+        width: 0%;
+        background: #008ed6;
+        transition: .4s all ease-in-out;
+    }
+    .navbar-light .navbar-nav .nav-link::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        height: 2px;
+        width: 0%;
+        background: #008ed6;
+        transition: .4s all ease-in-out;
+    }
+    .mobile{
+        display: none;
+    }
+    .banner_content{
+        text-align: center;
+        margin: auto;
+    }
+    .banner_content h1{
+    
+        color: #fff;
+        margin: 0;
+        margin-bottom: 15px;
+        /*! font-size: 35px; */
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 35px;
+    }
+    .contact{
+        padding-bottom: 335px;
+    }
+    form{
+        width: 80%;
+        bottom: -200px;
+        
+    }
+    .btn-features{
+        padding: 7px 15px;
+        margin-right: 4px;
+        margin-top: 15px;
+    }
+    .btn-download{
+        padding: 7px 15px;
+        margin-right: 0;
+        margin-top: 15px;
+        
+    }
+}
+@media (max-width:320px) and (min-width:0px){
+    .btn-features {
+        padding: 7px 13px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    .btn-features:hover{
+        background-color: #008ed6;
+        color: #fff;
+        transition: .4s all ease-in-out;
+    }
+    .btn-download{
+        padding: 7px 5px;
+        margin-right: 0;  
+    }
+    .btn-download:hover{
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #808081;
+        transition: .4s all ease-in-out;
+    }
+    .details_text h2::before {
+        bottom: -50%;
+       
+    }
+    .details_text h2::after {
+        bottom: -50%;
+        
+    }
+    .easy h2::before{
+        bottom: -30%;
+    }
+    .easy h2::after{
+        bottom: -30%;
+    }
+}
+@media (max-width:767px) and (min-width:576px){
+    .btn-features{
+        padding: 7px 5px;
+        margin-right: 4px;
+        
+    }
+    .btn-download{
+        padding: 7px 5px;
+        margin-right: 0;
+         
+    }
+    form {
+        bottom: -180px;
+        
+    }
+    .contact {
+        padding-bottom: 320px;
+    }
+    .banner_content{
+        text-align: left !important;
+        margin: auto;
+    }
+    .mobile{
+        display: none;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::before{
+        width: 5%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::after{
+        width: 5%;
+    }
+    .navbar-light .navbar-nav .nav-link::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        height: 2px;
+        width: 0%;
+        background: #008ed6;
+        transition: .4s all ease-in-out;
+    }
+    .navbar-light .navbar-nav .nav-link::after{
+        content: '';
+        position: absolute;
+        right: 382px;
+        bottom: -2px;
+        height: 2px;
+        width: 0%;
+        background: #008ed6;
+        transition: .4s all ease-in-out;
+    }
+}
